@@ -1,5 +1,5 @@
 {
-  "name": "iex-cloud",
+  "name": "iex-cloud-tmp",
   "version": "2.1.1",
   "description": "IEX Cloud API TypeScript Client",
   "main": "build/main/index.js",
