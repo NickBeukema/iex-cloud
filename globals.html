@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>iex-cloud</title>
+	<title>iex-cloud-tmp</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="assets/css/main.css">
@@ -24,7 +24,7 @@
 					</ul>
 					<ul class="results-priority" style="display:none">
 					</ul>
-					<a href="index.html" class="title">iex-cloud</a>
+					<a href="index.html" class="title">iex-cloud-tmp</a>
 				</div>
 				<div class="table-cell" id="tsd-widgets">
 					<div id="tsd-filter">
@@ -70,7 +70,7 @@
 			</nav>
 		</div>
 		<div class="col-7 offset-3 col-content">
-			<h1>iex-cloud</h1>
+			<h1>iex-cloud-tmp</h1>
 			<section class="tsd-panel-group tsd-index-group">
 				<section class="tsd-panel tsd-index-panel">
 					<div class="tsd-index-content">
@@ -531,7 +531,7 @@
 					<div class="tsd-signature tsd-kind-icon">context<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Context</span><span class="tsd-signature-symbol"> = setupPolly(config)</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in test/testSetup.ts:39</li>
+							<li>Defined in test/testSetup.ts:42</li>
 						</ul>
 					</aside>
 				</section>
@@ -1967,22 +1967,38 @@
 					<a name="paramstoquery" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagConst">Const</span> params<wbr>ToQuery</h3>
 					<ul class="tsd-signatures tsd-kind-function">
-						<li class="tsd-signature tsd-kind-icon">params<wbr>ToQuery<span class="tsd-signature-symbol">(</span>params<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+						<li class="tsd-signature tsd-kind-icon">params<wbr>ToQuery<span class="tsd-signature-symbol">(</span>params<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span>, addQuestionMark<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in utils/paramsToQuery.ts:1</li>
+									<li>Defined in utils/paramsToQuery.ts:7</li>
 								</ul>
 							</aside>
+							<div class="tsd-comment tsd-typography tsd-comment-shorttext">
+								<div class="lead">
+									<p>Takes an object and turns them into query parameters for a URL</p>
+							</div></div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
 									<h5>params: <span class="tsd-signature-type">any</span></h5>
+									<div class="tsd-comment tsd-typography tsd-comment-shorttext">
+										<div class="lead">
+											<p>Object to convert to query parameters</p>
+									</div></div>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> addQuestionMark: <span class="tsd-signature-type">boolean</span></h5>
+									<div class="tsd-comment tsd-typography tsd-comment-shorttext">
+										<div class="lead">
+											<p>Optional: indicates whether to begin the query parameters with a question mark</p>
+									</div></div>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+							<p>Query parameters in string format, ready to be used in a URL</p>
 						</li>
 					</ul>
 				</section>
@@ -2628,7 +2644,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in test/testSetup.ts:59</li>
+									<li>Defined in test/testSetup.ts:62</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -2938,7 +2954,7 @@
 					<div class="tsd-signature tsd-kind-icon">config<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in test/testSetup.ts:14</li>
+							<li>Defined in test/testSetup.ts:17</li>
 						</ul>
 					</aside>
 					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
@@ -2947,7 +2963,7 @@
 						<div class="tsd-signature tsd-kind-icon">adapters<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> = [&#x27;node-http&#x27;]</span></div>
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in test/testSetup.ts:15</li>
+								<li>Defined in test/testSetup.ts:18</li>
 							</ul>
 						</aside>
 					</section>
@@ -2957,7 +2973,7 @@
 						<div class="tsd-signature tsd-kind-icon">persister<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> = &quot;fs&quot;</span></div>
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in test/testSetup.ts:16</li>
+								<li>Defined in test/testSetup.ts:19</li>
 							</ul>
 						</aside>
 					</section>
@@ -2967,7 +2983,7 @@
 						<div class="tsd-signature tsd-kind-icon">record<wbr>Failed<wbr>Requests<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">true</span><span class="tsd-signature-symbol"> = true</span></div>
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in test/testSetup.ts:22</li>
+								<li>Defined in test/testSetup.ts:25</li>
 							</ul>
 						</aside>
 					</section>
@@ -2977,7 +2993,7 @@
 						<div class="tsd-signature tsd-kind-icon">match<wbr>Requests<wbr>By<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in test/testSetup.ts:23</li>
+								<li>Defined in test/testSetup.ts:26</li>
 							</ul>
 						</aside>
 						<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-object-literal">
@@ -2990,7 +3006,7 @@
 								<li class="tsd-description">
 									<aside class="tsd-sources">
 										<ul>
-											<li>Defined in test/testSetup.ts:24</li>
+											<li>Defined in test/testSetup.ts:27</li>
 										</ul>
 									</aside>
 									<h4 class="tsd-parameters-title">Parameters</h4>
@@ -3009,7 +3025,7 @@
 							<div class="tsd-signature tsd-kind-icon">url<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in test/testSetup.ts:27</li>
+									<li>Defined in test/testSetup.ts:30</li>
 								</ul>
 							</aside>
 							<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-object-literal">
@@ -3022,7 +3038,7 @@
 									<li class="tsd-description">
 										<aside class="tsd-sources">
 											<ul>
-												<li>Defined in test/testSetup.ts:28</li>
+												<li>Defined in test/testSetup.ts:31</li>
 											</ul>
 										</aside>
 										<h4 class="tsd-parameters-title">Parameters</h4>
@@ -3043,7 +3059,7 @@
 						<div class="tsd-signature tsd-kind-icon">persister<wbr>Options<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in test/testSetup.ts:17</li>
+								<li>Defined in test/testSetup.ts:20</li>
 							</ul>
 						</aside>
 						<section class="tsd-panel tsd-member tsd-kind-object-literal tsd-parent-kind-object-literal">
@@ -3052,7 +3068,7 @@
 							<div class="tsd-signature tsd-kind-icon">fs<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in test/testSetup.ts:18</li>
+									<li>Defined in test/testSetup.ts:21</li>
 								</ul>
 							</aside>
 							<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
@@ -3061,7 +3077,7 @@
 								<div class="tsd-signature tsd-kind-icon">recordings<wbr>Dir<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> = path.resolve(__dirname, &#x27;../../__recordings__&#x27;)</span></div>
 								<aside class="tsd-sources">
 									<ul>
-										<li>Defined in test/testSetup.ts:19</li>
+										<li>Defined in test/testSetup.ts:22</li>
 									</ul>
 								</aside>
 							</section>
@@ -3069,7 +3085,7 @@
 					</section>
 				</section>
 			</section>
-			<!--{&quot;options&quot;:&quot;/Users/alder/Projects/iex-ts-client&quot;,&quot;tsconfig&quot;:&quot;/Users/alder/Projects/iex-ts-client&quot;,&quot;inputFiles&quot;:[&quot;src/&quot;],&quot;mode&quot;:0,&quot;includeDeclarations&quot;:false,&quot;entryPoint&quot;:&quot;&quot;,&quot;exclude&quot;:[&quot;**/*.test.ts&quot;],&quot;externalPattern&quot;:[],&quot;excludeExternals&quot;:false,&quot;excludeNotExported&quot;:false,&quot;excludePrivate&quot;:false,&quot;excludeProtected&quot;:false,&quot;ignoreCompilerErrors&quot;:false,&quot;includes&quot;:&quot;&quot;,&quot;media&quot;:&quot;&quot;,&quot;out&quot;:&quot;build/docs&quot;,&quot;json&quot;:&quot;&quot;,&quot;theme&quot;:&quot;./node_modules/typedoc-neo-theme/bin/default&quot;,&quot;name&quot;:&quot;&quot;,&quot;includeVersion&quot;:false,&quot;readme&quot;:&quot;&quot;,&quot;defaultCategory&quot;:&quot;Other&quot;,&quot;categoryOrder&quot;:[],&quot;categorizeByGroup&quot;:true,&quot;gitRevision&quot;:&quot;&quot;,&quot;gaID&quot;:&quot;&quot;,&quot;gaSite&quot;:&quot;auto&quot;,&quot;hideGenerator&quot;:false,&quot;toc&quot;:[],&quot;disableOutputCheck&quot;:false,&quot;help&quot;:false,&quot;version&quot;:false,&quot;plugin&quot;:[],&quot;logger&quot;:&quot;console&quot;,&quot;listInvalidSymbolLinks&quot;:false}-->
+			<!--{&quot;options&quot;:&quot;/Users/nickbeukema/Documents/workspace/iex-cloud&quot;,&quot;tsconfig&quot;:&quot;/Users/nickbeukema/Documents/workspace/iex-cloud&quot;,&quot;inputFiles&quot;:[&quot;src/&quot;],&quot;mode&quot;:0,&quot;includeDeclarations&quot;:false,&quot;entryPoint&quot;:&quot;&quot;,&quot;exclude&quot;:[&quot;**/*.test.ts&quot;],&quot;externalPattern&quot;:[],&quot;excludeExternals&quot;:false,&quot;excludeNotExported&quot;:false,&quot;excludePrivate&quot;:false,&quot;excludeProtected&quot;:false,&quot;ignoreCompilerErrors&quot;:false,&quot;includes&quot;:&quot;&quot;,&quot;media&quot;:&quot;&quot;,&quot;out&quot;:&quot;build/docs&quot;,&quot;json&quot;:&quot;&quot;,&quot;theme&quot;:&quot;./node_modules/typedoc-neo-theme/bin/default&quot;,&quot;name&quot;:&quot;&quot;,&quot;includeVersion&quot;:false,&quot;readme&quot;:&quot;&quot;,&quot;defaultCategory&quot;:&quot;Other&quot;,&quot;categoryOrder&quot;:[],&quot;categorizeByGroup&quot;:true,&quot;gitRevision&quot;:&quot;&quot;,&quot;gaID&quot;:&quot;&quot;,&quot;gaSite&quot;:&quot;auto&quot;,&quot;hideGenerator&quot;:false,&quot;toc&quot;:[],&quot;disableOutputCheck&quot;:false,&quot;help&quot;:false,&quot;version&quot;:false,&quot;plugin&quot;:[],&quot;logger&quot;:&quot;console&quot;,&quot;listInvalidSymbolLinks&quot;:false}-->
 		</div>
 		<div class="col-2 col-menu secondary-menu">
 			<nav class="tsd-navigation secondary menu-sticky">
